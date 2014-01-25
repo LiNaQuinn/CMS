@@ -8,4 +8,4 @@ require 'smarty.php';
 
 $debug = new Debug('debug', DEBUG_ENABLER);
 $db = new DBhandler();
-
+$db->connect();
