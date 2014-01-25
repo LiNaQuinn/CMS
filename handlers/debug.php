@@ -2,17 +2,17 @@
 
 class Debug {
 
-    private $debugEnabled = false;
+    private static $debugEnabled = false;
 
     public function __construct($component, $enabled){
-        $this->debugEnabled = $enabled;
+        self::$debugEnabled = $enabled;
         $this->throwOut('<strong>'.$component.'</strong>: debug enabled');
     }
 
-    public function throwOut($msg){
-        if($this->debugEnabled){
+    public static function throwOut($msg){
+        if(self::$debugEnabled){
             $date = StrFTime(" %H:%M:%S", Time());
-            echo $date.' - <em>'.$msg.'<em><br>';
+            echo $date.' - <em>'.$msg.'</em><br>';
         }
     }
 }
