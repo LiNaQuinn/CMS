@@ -33,4 +33,19 @@ class DBhandler {
         }
         return $rows;
     }
+
+    public function fetchUserId($q){
+        // TODO: simplify this method
+        $result = mysqli_query($this->connection, $q);
+
+        if (!$result) {
+            debug::throwOut($this->connection->error);
+            exit;
+        }
+
+        if ($row = $result->fetch_assoc()){
+            return $row;
+        }
+
+    }
 }

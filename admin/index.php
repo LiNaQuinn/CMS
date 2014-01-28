@@ -9,14 +9,15 @@ if(isset($_POST['login'])){
 
     $cryptedPass = md5($user.$pass);
 
-    $userExist = $db->fetch("SELECT id
+    $userExist = $db->fetchUserId("SELECT id
                 FROM users
                 WHERE user = '$user'
                 AND pass = '$cryptedPass'");
 
     if($userExist){
+        $_SESSION['uid'] = $userExist['id'];
         echo 'logged';
     } else { echo 'failed'; }
-}
-
-$smarty->display('admin/login.tpl');
+} elseif (isset($_SESSION['uid'])){
+    debug::throwOut($_SESSION['uid']);
+} else { $smarty->display('admin/login.tpl'); }
