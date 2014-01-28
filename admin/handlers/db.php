@@ -12,7 +12,7 @@ class DBhandler {
         if(!$this->connection){
             debug::throwOut(mysqli_connect_error());
             exit;
-        } else { debug::throwOut("connected"); }
+        } else { debug::throwOut("DB    connected"); }
     }
 
     public function query($q){
