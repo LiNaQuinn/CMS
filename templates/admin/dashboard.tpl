@@ -11,6 +11,12 @@
 <div id="main">
 	<div class="module">
         <h2>Content</h2>
+        {if $CONTENT_MODULE == 'add'}
+            <form action="dashboard.php?content=add" method="post">
+                <input type="text" name="content_text">
+                <input type="submit" name="content" value="Pridat">
+            </form>
+        {/if}
 		<ul>
 		{foreach from=$CONTENT_DATA item=content}
 			<li class="{cycle values="odd,even"}">{$content.content}</li>
@@ -20,4 +26,4 @@
 </div>
 
 <a href="?session=destroy">sessionDestroy</a><br>
-<a href="?add=content">addContent</a>
+<a href="?content=add">addContent</a>

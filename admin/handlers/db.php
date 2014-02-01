@@ -17,7 +17,7 @@ class DBhandler {
     }
 
     public function query($q){
-        mysqli_query($this->connection, $q);
+        mysqli_query($this->connection, $q) or die(debug::throwOut(mysqli_error($this->connection)));
         debug::throwOut($q);
     }
 
