@@ -2,17 +2,18 @@
 
 class DBhandler {
 
-    private $connection;
+    public $connection;
     public function __construct(){
         debug::throwOut("DBhandler ini");
+        $this->connect();
     }
 
     public function connect(){
-        $this->connection = mysqli_connect('localhost', 'root', '', 'cms');
+        $this->connection = mysqli_connect('localhost', 'root', 'tucnak', 'cms');
         if(!$this->connection){
             debug::throwOut(mysqli_connect_error());
             exit;
-        } else { debug::throwOut("DB    connected"); }
+        } else { debug::throwOut("DB connected"); }
     }
 
     public function query($q){
@@ -34,9 +35,13 @@ class DBhandler {
         return $rows;
     }
 
-    public function fetchUserId($q){
+    public function fetchUserId($user, $cryptedPass){
         // TODO: simplify this method
-        $result = mysqli_query($this->connection, $q);
+        $result = mysqli_query($this->connection, "
+                SELECT id
+                FROM users
+                WHERE user = '$user'
+                AND pass = '$cryptedPass'");
 
         if (!$result) {
             debug::throwOut($this->connection->error);

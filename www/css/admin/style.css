@@ -1,0 +1,20 @@
+* {margin: 0; padding: 0;}
+
+#top-menu {
+	height: 40px;
+	background: #676767;
+	border:1px solid #676767;
+	border-radius: 3px;
+}
+
+#top-menu ul {  }
+#top-menu ul li { display: inline-block; }
+#top-menu ul li a { display: block; padding: 0px 20px; height: 40px; color: #fff; line-height: 40px; text-decoration: none; }
+#top-menu ul li a:hover { background: #999; }
+
+.module {
+	width: 500px;
+}
+
+.module .even { background: #fff; }
+.module .odd { background: #cecece; }

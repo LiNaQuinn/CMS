@@ -6,13 +6,15 @@ class Debug {
 
     public function __construct($component, $enabled){
         self::$debugEnabled = $enabled;
-        $this->throwOut('<strong>'.$component.'</strong>: debug enabled');
+        $this->throwOut($component.': debug enabled');
     }
 
     public static function throwOut($msg){
         if(self::$debugEnabled){
-            $date = StrFTime(" %H:%M:%S", Time());
-            echo $date.' - <em>'.$msg.'</em><br>';
+            $log = file_get_contents(DEBUG_LOG_FILE);
+            $date = StrFTime("%d/%m/%y %H:%M:%S", Time());
+            $log .= $date.' - '.$msg."\n";
+            file_put_contents(DEBUG_LOG_FILE, $log);
         }
     }
 }

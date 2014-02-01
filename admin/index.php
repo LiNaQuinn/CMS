@@ -9,15 +9,13 @@ if(isset($_POST['login'])){
 
     $cryptedPass = md5($user.$pass);
 
-    $userExist = $db->fetchUserId("SELECT id
-                FROM users
-                WHERE user = '$user'
-                AND pass = '$cryptedPass'");
+    $userExist = $db->fetchUserId($user, $cryptedPass);
 
     if($userExist){
         $_SESSION['uid'] = $userExist['id'];
-        echo 'logged';
+        header('Location: dashboard.php');
     } else { echo 'failed'; }
+
 } elseif (isset($_SESSION['uid'])){
     debug::throwOut($_SESSION['uid']);
 } else { $smarty->display('admin/login.tpl'); }
