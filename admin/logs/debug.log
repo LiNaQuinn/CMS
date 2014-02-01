@@ -327,3 +327,240 @@
 01/02/14 07:43:10 - session started
 01/02/14 07:43:10 - Modul: content loaded
 01/02/14 07:43:10 - Modul: content loaded
+01/02/14 08:01:42 - debug: debug enabled
+01/02/14 08:01:42 - DBhandler ini
+01/02/14 08:01:42 - DB connected
+01/02/14 08:01:42 - session started
+01/02/14 08:01:42 - Modul: content loaded
+01/02/14 08:01:46 - debug: debug enabled
+01/02/14 08:01:46 - DBhandler ini
+01/02/14 08:01:46 - DB connected
+01/02/14 08:01:46 - session started
+01/02/14 08:01:46 - Modul: content loaded
+01/02/14 08:02:18 - debug: debug enabled
+01/02/14 08:02:18 - DBhandler ini
+01/02/14 08:02:18 - DB connected
+01/02/14 08:02:18 - session started
+01/02/14 08:02:18 - Modul: content loaded
+01/02/14 08:03:16 - debug: debug enabled
+01/02/14 08:03:16 - DBhandler ini
+01/02/14 08:03:16 - DB connected
+01/02/14 08:03:16 - session started
+01/02/14 08:03:16 - Modul: content loaded
+01/02/14 08:05:55 - debug: debug enabled
+01/02/14 08:05:55 - DBhandler ini
+01/02/14 08:05:55 - DB connected
+01/02/14 08:05:55 - session started
+01/02/14 08:05:55 - Modul: content loaded
+01/02/14 08:05:59 - debug: debug enabled
+01/02/14 08:05:59 - DBhandler ini
+01/02/14 08:05:59 - DB connected
+01/02/14 08:05:59 - session started
+01/02/14 08:05:59 - Modul: content loaded
+01/02/14 08:06:13 - debug: debug enabled
+01/02/14 08:06:13 - DBhandler ini
+01/02/14 08:06:13 - DB connected
+01/02/14 08:06:13 - session started
+01/02/14 08:06:13 - Modul: content loaded
+01/02/14 08:06:15 - debug: debug enabled
+01/02/14 08:06:15 - DBhandler ini
+01/02/14 08:06:15 - DB connected
+01/02/14 08:06:15 - session started
+01/02/14 08:06:15 - Modul: content loaded
+01/02/14 08:06:18 - debug: debug enabled
+01/02/14 08:06:18 - DBhandler ini
+01/02/14 08:06:18 - DB connected
+01/02/14 08:06:18 - session started
+01/02/14 08:06:18 - Modul: content loaded
+01/02/14 08:06:18 - Modul: content loaded
+01/02/14 08:06:18 - INSERT INTO content
+                          VALUES content = 'hgjg'
+01/02/14 08:06:31 - debug: debug enabled
+01/02/14 08:06:31 - DBhandler ini
+01/02/14 08:06:31 - DB connected
+01/02/14 08:06:31 - session started
+01/02/14 08:06:31 - Modul: content loaded
+01/02/14 08:06:31 - Modul: content loaded
+01/02/14 08:06:40 - debug: debug enabled
+01/02/14 08:06:40 - DBhandler ini
+01/02/14 08:06:40 - DB connected
+01/02/14 08:06:40 - session started
+01/02/14 08:06:40 - Modul: content loaded
+01/02/14 08:06:40 - Modul: content loaded
+01/02/14 08:07:23 - debug: debug enabled
+01/02/14 08:07:23 - DBhandler ini
+01/02/14 08:07:23 - DB connected
+01/02/14 08:07:23 - session started
+01/02/14 08:07:23 - Modul: content loaded
+01/02/14 08:07:25 - debug: debug enabled
+01/02/14 08:07:25 - DBhandler ini
+01/02/14 08:07:25 - DB connected
+01/02/14 08:07:25 - session started
+01/02/14 08:07:25 - Modul: content loaded
+01/02/14 08:07:25 - Modul: content loaded
+01/02/14 08:07:25 - INSERT INTO content
+                          VALUES ('', 'fadsf')
+01/02/14 08:07:26 - debug: debug enabled
+01/02/14 08:07:26 - DBhandler ini
+01/02/14 08:07:26 - DB connected
+01/02/14 08:07:26 - session started
+01/02/14 08:07:26 - Modul: content loaded
+01/02/14 08:07:26 - Modul: content loaded
+01/02/14 08:07:26 - INSERT INTO content
+                          VALUES ('', 'fadsf')
+01/02/14 08:07:29 - debug: debug enabled
+01/02/14 08:07:29 - DBhandler ini
+01/02/14 08:07:29 - DB connected
+01/02/14 08:07:29 - session started
+01/02/14 08:07:29 - Modul: content loaded
+01/02/14 08:07:29 - Modul: content loaded
+01/02/14 08:08:31 - debug: debug enabled
+01/02/14 08:08:31 - DBhandler ini
+01/02/14 08:08:31 - DB connected
+01/02/14 08:08:31 - session started
+01/02/14 08:08:31 - Modul: content loaded
+01/02/14 08:08:33 - debug: debug enabled
+01/02/14 08:08:33 - DBhandler ini
+01/02/14 08:08:33 - DB connected
+01/02/14 08:08:33 - session started
+01/02/14 08:08:33 - Modul: content loaded
+01/02/14 08:08:33 - Modul: content loaded
+01/02/14 08:08:33 - INSERT INTO content
+                          VALUES ('', 'fds')
+01/02/14 08:08:34 - debug: debug enabled
+01/02/14 08:08:34 - DBhandler ini
+01/02/14 08:08:34 - DB connected
+01/02/14 08:08:34 - session started
+01/02/14 08:08:34 - Modul: content loaded
+01/02/14 08:08:34 - Modul: content loaded
+01/02/14 08:08:34 - INSERT INTO content
+                          VALUES ('', 'fdsfds')
+01/02/14 08:08:35 - debug: debug enabled
+01/02/14 08:08:35 - DBhandler ini
+01/02/14 08:08:35 - DB connected
+01/02/14 08:08:35 - session started
+01/02/14 08:08:35 - Modul: content loaded
+01/02/14 08:08:35 - Modul: content loaded
+01/02/14 08:08:35 - INSERT INTO content
+                          VALUES ('', 'fdsfds')
+01/02/14 08:10:50 - debug: debug enabled
+01/02/14 08:10:50 - DBhandler ini
+01/02/14 08:10:50 - DB connected
+01/02/14 08:10:50 - session started
+01/02/14 08:10:50 - Modul: content loaded
+01/02/14 08:10:50 - Modul: content loaded
+01/02/14 08:10:51 - INSERT INTO content
+                          VALUES ('1', 'fdsfds')
+01/02/14 08:10:51 - debug: debug enabled
+01/02/14 08:10:51 - DBhandler ini
+01/02/14 08:10:51 - DB connected
+01/02/14 08:10:51 - session started
+01/02/14 08:10:51 - Modul: content loaded
+01/02/14 08:10:51 - Modul: content loaded
+01/02/14 08:10:51 - INSERT INTO content
+                          VALUES ('1', 'fdsfsd')
+01/02/14 08:11:11 - debug: debug enabled
+01/02/14 08:11:11 - DBhandler ini
+01/02/14 08:11:11 - DB connected
+01/02/14 08:11:11 - session started
+01/02/14 08:11:11 - Modul: content loaded
+01/02/14 08:11:13 - debug: debug enabled
+01/02/14 08:11:13 - DBhandler ini
+01/02/14 08:11:13 - DB connected
+01/02/14 08:11:13 - session started
+01/02/14 08:11:13 - Modul: content loaded
+01/02/14 08:11:13 - Modul: content loaded
+01/02/14 08:11:13 - INSERT INTO content
+                          VALUES ('', klklkl)
+01/02/14 08:11:40 - debug: debug enabled
+01/02/14 08:11:40 - DBhandler ini
+01/02/14 08:11:40 - DB connected
+01/02/14 08:11:40 - session started
+01/02/14 08:11:40 - Modul: content loaded
+01/02/14 08:11:40 - Modul: content loaded
+01/02/14 08:11:40 - INSERT INTO content VALUES ('', 'klklkl')
+01/02/14 08:11:42 - debug: debug enabled
+01/02/14 08:11:42 - DBhandler ini
+01/02/14 08:11:42 - DB connected
+01/02/14 08:11:42 - session started
+01/02/14 08:11:42 - Modul: content loaded
+01/02/14 08:11:42 - Modul: content loaded
+01/02/14 08:11:42 - INSERT INTO content VALUES ('', 'fdsfdsf')
+01/02/14 08:11:44 - debug: debug enabled
+01/02/14 08:11:44 - DBhandler ini
+01/02/14 08:11:44 - DB connected
+01/02/14 08:11:44 - session started
+01/02/14 08:11:44 - Modul: content loaded
+01/02/14 08:11:44 - Modul: content loaded
+01/02/14 08:11:44 - INSERT INTO content VALUES ('', 'dsfdsf')
+01/02/14 08:11:59 - debug: debug enabled
+01/02/14 08:11:59 - DBhandler ini
+01/02/14 08:11:59 - DB connected
+01/02/14 08:11:59 - session started
+01/02/14 08:11:59 - Modul: content loaded
+01/02/14 08:11:59 - Modul: content loaded
+01/02/14 08:11:59 - INSERT INTO content VALUES ('', 'dsfdf')
+01/02/14 08:12:01 - debug: debug enabled
+01/02/14 08:12:01 - DBhandler ini
+01/02/14 08:12:01 - DB connected
+01/02/14 08:12:01 - session started
+01/02/14 08:12:01 - Modul: content loaded
+01/02/14 08:12:01 - Modul: content loaded
+01/02/14 08:12:01 - INSERT INTO content VALUES ('', 'dsfdf')
+01/02/14 08:17:34 - debug: debug enabled
+01/02/14 08:17:34 - DBhandler ini
+01/02/14 08:17:34 - DB connected
+01/02/14 08:17:34 - session started
+01/02/14 08:17:34 - Modul: content loaded
+01/02/14 08:17:34 - Modul: content loaded
+01/02/14 08:17:34 - Incorrect integer value: '' for column 'id' at row 1
+01/02/14 08:17:36 - debug: debug enabled
+01/02/14 08:17:36 - DBhandler ini
+01/02/14 08:17:36 - DB connected
+01/02/14 08:17:36 - session started
+01/02/14 08:17:36 - Modul: content loaded
+01/02/14 08:17:36 - Modul: content loaded
+01/02/14 08:17:36 - Incorrect integer value: '' for column 'id' at row 1
+01/02/14 08:17:36 - debug: debug enabled
+01/02/14 08:17:36 - DBhandler ini
+01/02/14 08:17:36 - DB connected
+01/02/14 08:17:36 - session started
+01/02/14 08:17:36 - Modul: content loaded
+01/02/14 08:17:38 - debug: debug enabled
+01/02/14 08:17:38 - DBhandler ini
+01/02/14 08:17:38 - DB connected
+01/02/14 08:17:38 - session started
+01/02/14 08:17:38 - Modul: content loaded
+01/02/14 08:17:38 - Modul: content loaded
+01/02/14 08:17:38 - Incorrect integer value: '' for column 'id' at row 1
+01/02/14 08:18:15 - debug: debug enabled
+01/02/14 08:18:15 - DBhandler ini
+01/02/14 08:18:15 - DB connected
+01/02/14 08:18:15 - session started
+01/02/14 08:18:15 - Modul: content loaded
+01/02/14 08:18:16 - debug: debug enabled
+01/02/14 08:18:16 - DBhandler ini
+01/02/14 08:18:16 - DB connected
+01/02/14 08:18:16 - session started
+01/02/14 08:18:16 - Modul: content loaded
+01/02/14 08:18:17 - debug: debug enabled
+01/02/14 08:18:17 - DBhandler ini
+01/02/14 08:18:17 - DB connected
+01/02/14 08:18:17 - session started
+01/02/14 08:18:17 - Modul: content loaded
+01/02/14 08:18:17 - Modul: content loaded
+01/02/14 08:18:17 - INSERT INTO content VALUES ('0', 'fdsafs')
+01/02/14 08:18:19 - debug: debug enabled
+01/02/14 08:18:19 - DBhandler ini
+01/02/14 08:18:19 - DB connected
+01/02/14 08:18:19 - session started
+01/02/14 08:18:19 - Modul: content loaded
+01/02/14 08:18:19 - Modul: content loaded
+01/02/14 08:18:19 - INSERT INTO content VALUES ('0', 'fdsfsdf')
+01/02/14 08:19:37 - debug: debug enabled
+01/02/14 08:19:37 - DBhandler ini
+01/02/14 08:19:37 - DB connected
+01/02/14 08:19:37 - session started
+01/02/14 08:19:37 - Modul: content loaded
+01/02/14 08:19:37 - Modul: content loaded
+01/02/14 08:19:37 - INSERT INTO content VALUES ('0', 'dsfsd')
