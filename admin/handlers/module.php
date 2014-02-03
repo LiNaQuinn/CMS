@@ -12,8 +12,13 @@ class Module {
 
 	private function loadModules($arr){
 		foreach ($arr as $key => $module) {
-			debug::throwOut('Modul: '.$module.' loaded');
-			include_once './modules/'.$module.'.php';
-		}
+            $moduleFile = './modules/'.$module.'.php';
+            if(file_exists($moduleFile)){
+			    include_once $moduleFile;
+                debug::throwOut('Modul: '.$module.' loaded');
+            } else {
+                debug::throwOut('Modul: '.$module.' Error file does not exist');
+            }
+         }
 	}
 }

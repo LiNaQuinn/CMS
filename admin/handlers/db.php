@@ -8,8 +8,8 @@ class DBhandler {
         $this->connect();
     }
 
-    public function connect(){
-        $this->connection = mysqli_connect('localhost', 'root', 'tucnak', 'cms');
+    private function connect(){
+        $this->connection = mysqli_connect('localhost', 'root', '', 'cms');
         if(!$this->connection){
             debug::throwOut(mysqli_connect_error());
             exit;
